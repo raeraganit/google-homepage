@@ -25,18 +25,21 @@ li {
     display: block;
     position: relative;
     text-align: center;
+    margin: 80px auto; 
+    padding-top: 50px;
 }
 
 .foogle-logo img {
-    height: 100px;
-    margin: 100px auto; 
+    height: 150px;
 }
+
 
 .search-elements {
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .search-bar {
@@ -49,15 +52,32 @@ li {
 }
 
 .empty-container {
-    margin: 150px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer1 {
-    background-color: rgb(207, 207, 207);
-    padding: 5px 5px;
+    display: block;
+    padding: 15px 30px;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54);
 }
 
 .footer2 {
-    background-color: rgb(207, 207, 207);
-    padding: 5px 5px;
+    display: block;
+    padding: 25px 30px;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,.54);
+}
+
+.f2-left {
+    float: left;
 }
